@@ -193,7 +193,7 @@ ul {
 
     height: 600px;
 
-
+    text-align: center;
 
 }
 
@@ -209,13 +209,13 @@ ul {
     margin: 0 auto;
     padding-top: 200px;
 
+    display: inline-block;
+
 }
 
 
 
-/* .main-btn {
-            margin: ;
-        } */
+
 
 .hero-btn {
     font-weight: 700;
@@ -230,9 +230,10 @@ ul {
     border-radius: 4px;
     border-color: transparent;
     box-shadow: 0px 4px 4px 0px #00000026;
-    display: block;
-    margin: auto;
 
+    margin-top: 30px;
+
+    /* display: inline-block; */
 
 }
 
@@ -387,14 +388,26 @@ ul {
 .footer-bottom-logo {
     padding-top: 60px;
     padding-left: 215px;
+    max-width: calc(145px + 215px);
+
+
+    display: block;
+
+    /* border: red 1px solid; */
 }
 
 .footer-adress-block {
     font-style: normal;
-    width: 231px;
+    max-width: calc(231px + 215px);
     height: 81px;
-    padding-left: 215px;
+
+
     margin-top: 20px;
+    padding-left: 215px;
+
+    display: block;
+
+    
 }
 
 
@@ -406,6 +419,8 @@ ul {
     color: var(--white-color);
     height: 21px;
     margin-bottom: 9px;
+
+    
 }
 
 .footer-contacts {
@@ -416,6 +431,8 @@ ul {
     color: inherit;
     width: 231px;
     height: 21px;
+
+    
 }
 
 .footer-mail {
